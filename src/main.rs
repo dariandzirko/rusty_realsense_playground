@@ -1,3 +1,5 @@
+mod sanity_check;
+
 fn main() {
-    println!("Hello, world!");
+    sanity_check::run_sanity_check();
 }
